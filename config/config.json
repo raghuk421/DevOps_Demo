@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "raghu-devops-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/raghuDevops3/RaghuDevops3WebPart.js",
+          "manifest": "./src/webparts/raghuDevops3/RaghuDevops3WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RaghuDevops3WebPartStrings": "lib/webparts/raghuDevops3/loc/{locale}.js"
+  }
+}
